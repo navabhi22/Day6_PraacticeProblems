@@ -7,7 +7,10 @@ namespace Day5_PracticeProblems
         static void Main(string[] args)
         {
             Console.WriteLine("Day 6 Practice Problems ");
-            LeapYear.CheckLeapYear();
+            Console.WriteLine("Enter the power of 2 ");
+            int power = Convert.ToInt32(Console.ReadLine());
+            PowerOfTwo.CalculatePowerOfTwo(power);
+
         }
     }
 }
